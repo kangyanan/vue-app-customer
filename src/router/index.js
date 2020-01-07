@@ -13,6 +13,7 @@ import store from '../store'
 //地址页面
 import Address from "../views/manager/address/List"
 import AddressEdit from "../views/manager/address/Edit"
+import OrderConfirm from "../views/manager/order/Confirm"
 
 
 Vue.use(VueRouter)
@@ -50,6 +51,9 @@ const routes = [
     },{
       path: 'user',
       component: User,
+    },{
+      path: 'order_confirm',
+      component: OrderConfirm,
     },{
       path: 'address',
       component: Address,
